@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practica1</string>
+    <string name="name_login">LOGIN</string>
+    <string name="name_guardar">GUARDAR</string>
+    <string name="name_buscar">BUSCAR</string>
+    <string name="name_pasar">Pasar Parametro</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/button_guardar"
+        android:layout_width="412dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/name_guardar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/name_login"
+        app:layout_constraintTop_toBottomOf="@+id/button_guardar"
+        tools:layout_editor_absoluteX="-7dp" />
+
+    <Button
+        android:id="@+id/button_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="@string/name_buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_login"
+        app:layout_constraintVertical_bias="0.147"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_pasar"
+        android:layout_width="404dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/name_pasar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_buscar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
